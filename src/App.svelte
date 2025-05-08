@@ -73,7 +73,7 @@
         .onChange(updateUniforms);
 
       // Load the data ...
-      new NRRDLoader().load("./resample-05.nrrd", function (volume) {
+      new NRRDLoader().load("./resample-025.nrrd", function (volume) {
         // new NRRDLoader().load("./stent.nrrd", function (volume) {
         console.log("loaded");
 
@@ -100,6 +100,7 @@
         );
         texture.format = THREE.RedFormat;
         texture.type = THREE.FloatType;
+
         // texture.minFilter = texture.magFilter = THREE.LinearFilter;
         texture.unpackAlignment = 1;
         texture.needsUpdate = true;
