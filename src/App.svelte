@@ -100,7 +100,7 @@
         );
         texture.format = THREE.RedFormat;
         texture.type = THREE.FloatType;
-        texture.minFilter = texture.magFilter = THREE.LinearFilter;
+        // texture.minFilter = texture.magFilter = THREE.LinearFilter;
         texture.unpackAlignment = 1;
         texture.needsUpdate = true;
 
